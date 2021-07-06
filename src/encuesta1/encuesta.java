@@ -154,13 +154,12 @@ public class encuesta extends JFrame implements ActionListener{
 		String eprog="";
 		String edg="";
 		String eadm="";
-		String esp = "";
 
 		if(prog.isSelected()) {
 			eprog = prog.getText();
 		}if(dg.isSelected()) {
 			edg = dg.getText();
-		}if(mac.isSelected()) {
+		}if(adm.isSelected()) {
 			eadm = adm.getText();
 		}
 		
